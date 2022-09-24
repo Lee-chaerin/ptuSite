@@ -2,12 +2,14 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Header from './components/Header';
+import Footer from './components/Footer';
 import MainPage from './pages/MainPage';
 import IntroducePage from './pages/IntroducePage';
 import ProjectPage from './pages/ProjectPage';
 import StudyPage from './pages/StudyPage';
 
 import './App.css';
+
 
 const App = () => {
   return (
@@ -19,6 +21,7 @@ const App = () => {
         <Route path='/project' element={<ProjectPage />}/>
         <Route path='/study' element={<StudyPage />}/>
       </Routes>  
+      <Footer/>
     </BrowserRouter>
   );
 }
