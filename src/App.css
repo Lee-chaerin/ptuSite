@@ -123,6 +123,70 @@ a {
 /* main */
 #main {
   background-color: aquamarine;
+}
+
+.main1 {
+  height: 690px;
+  background-color: red;
+}
+
+.main2 {
+  height: 199px;
+  background-color: yellow;
+}
+
+.main3 {
+  height: 268px;
+  background-color: green;
+}
+
+.main4 {
+  height: 400px;
+  background-color: blue;
+}
+
+
+
+
+
+/* introduce */
+#introduce {
+  height: 1200px;
+}
+
+.top {
+  background-color: yellow;
+  height: 200px;
+}
+
+.introduce1 {
+  background-color: red;
+  height: 1000px;
+  width: 40%;
+  float: left;
+}
+
+.introduce2 {
+  background-color: blue;
+  height: 1000px;
+  width: 60%;
+  float: left;
+} 
+
+
+/* project */
+#project {
   height: 1000px;
 }
 
+.board {
+  background-color: beige;
+  height: 800px;
+}
+
+
+
+/* study */
+#study {
+  height: 1000px;
+}

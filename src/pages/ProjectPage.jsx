@@ -2,8 +2,9 @@ import React from "react";
 
 const ProjectPage = () => {
   return (
-    <div>
-      <h1>프로젝트</h1>
+    <div id="project">
+      <div className="top">top</div>
+      <div className='board'>main</div>
     </div>
   )
 }
