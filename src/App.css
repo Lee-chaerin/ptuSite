@@ -121,27 +121,52 @@ a {
 
 
 /* main */
-#main {
-  background-color: aquamarine;
+.width {
+  margin: auto;
+  width: 76%;
 }
 
 .main1 {
-  height: 690px;
-  background-color: red;
+  height: 654px;
+  background-image: url('../public/background.jpg');
+  background-size: cover;
+}
+
+.main1 > div {
+  height: 100%;
+  width: 23%;
+  float: right;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .main2 {
-  height: 199px;
-  background-color: yellow;
+  height: 235px;
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.main2 a {
+  font-size: 28px;
+  font-weight: 600;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main2 img {
+  width: 180px;
 }
 
 .main3 {
-  height: 268px;
+  height: 272px;
   background-color: green;
 }
 
 .main4 {
-  height: 400px;
+  height: 360px;
   background-color: blue;
 }
 
