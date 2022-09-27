@@ -172,16 +172,29 @@ a {
 
 
 
+/* top */
+.top {
+  height: 170px;
+  background-image: url('../public/bg.jpg');
+  border-bottom: 4px solid #006938;
+}
+
+.top h1 {
+  color: #ffffff;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 50px;
+  letter-spacing: 10px;
+  font-weight: 600;
+  padding: 51.5px;
+}
+
+
 
 
 /* introduce */
 #introduce {
   height: 1200px;
-}
-
-.top {
-  background-color: yellow;
-  height: 200px;
 }
 
 .introduce1 {
