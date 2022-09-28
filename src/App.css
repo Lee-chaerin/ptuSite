@@ -197,19 +197,26 @@ a {
   height: 1200px;
 }
 
+#introduce > div:nth-child(2) {
+  width: 70%;
+  margin: auto;
+}
+
 .introduce1 {
   background-color: red;
   height: 1000px;
-  width: 40%;
+  width: 25%;
   float: left;
 }
 
 .introduce2 {
   background-color: blue;
   height: 1000px;
-  width: 60%;
+  width: 75%;
   float: left;
 } 
+
+
 
 
 /* project */
