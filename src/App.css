@@ -203,11 +203,17 @@ a {
 }
 
 .introduce1 {
-  background-color: red;
   height: 1000px;
   width: 25%;
   float: left;
 }
+
+.introduce1 h1{font-size: 30px; color: #016938; margin-bottom: 25px;}
+.introduce1 ul{width: 75%; list-style: none; font-size: 20px; font-weight: 600;}
+.introduce1 li{border-bottom: 1px solid #c7c7c7; padding-bottom: 5px; margin-bottom: 8px;}
+
+.introduce1 a{color: #000000; padding-left: 8px;}
+.introduce1 a:hover{color: #016938;}
 
 .introduce2 {
   background-color: blue;
