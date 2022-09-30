@@ -177,6 +177,7 @@ a {
   height: 170px;
   background-image: url('../public/bg.jpg');
   border-bottom: 4px solid #006938;
+  margin-bottom: 40px;
 }
 
 .top h1 {
