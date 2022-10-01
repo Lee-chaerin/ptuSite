@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const IntroducePage = () => {
   return (
@@ -10,11 +11,11 @@ const IntroducePage = () => {
         <div className="introduce1">
           <h1>INTRODUCE</h1>
           <ul>
-            <li>‣<a href="/introduce/introduce.html">학과 소개</a></li>
-            <li>‣<a href="/introduce/professor.html">전공교수 소개</a></li>
-            <li>‣<a href="/introduce/member.html">임원 소개</a></li>
-            <li>‣<a href="/introduce/notice.html">학과 공지</a></li>
-            <li>‣<a href="/introduce/gallery.html">학과 갤러리</a></li>
+            <li>‣<Link to={''}>학과 소개</Link></li>
+            <li>‣<Link to={''}>전공교수 소개</Link></li>
+            <li>‣<Link to={''}>임원 소개</Link></li>
+            <li>‣<Link to={''}>학과 공지</Link></li>
+            <li>‣<Link to={''}>학과 갤러리</Link></li>
           </ul> 
         </div>          
         <div className="introduce2">오른쪽</div>
